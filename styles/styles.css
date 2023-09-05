@@ -62,7 +62,7 @@ section {
 .find_fon {
   top: 12%;
   position: absolute;
-  width: 108%;
+  width: 100%;
 }
 @media (max-width: 600px) {
   .find_fon {
@@ -141,6 +141,11 @@ strong {
 
 .founder_img img {
   width: 400px;
+}
+@media (max-width: 600px) {
+  .founder_img img {
+    width: 100%;
+  }
 }
 
 .founder_info {
