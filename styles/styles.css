@@ -43,7 +43,6 @@ section {
 
 .heading img {
   width: 100%;
-  margin-left: 4%;
 }
 
 .main_information {
@@ -66,7 +65,8 @@ section {
 }
 @media (max-width: 600px) {
   .find_fon {
-    top: 0%;
+    left: 0;
+    top: 0;
     width: 100%;
   }
 }
