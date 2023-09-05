@@ -4,7 +4,7 @@
     }
 
     body {
-        background-color: #FEF1EC;
+        background-color: #FFFFFF;
         font-family: 'Forum';
     }
 
@@ -46,15 +46,32 @@
 
     .heading img {
         width: 100%;
+        margin-left: 4%;
     }
 
     // --------------------------------
+    .main_information {
+        position: relative;
+    }
+
     .information_block {
         margin: 0 auto;
         width: 80%;
         font-family: 'Forum';
         font-size: 30px;
         line-height: 44px;
+        position: relative;
+    }
+
+    .find_fon {
+        top: 12%;
+        position: absolute;
+        width: 108%;
+
+        @media(max-width: 600px) {
+            top: 0%;
+            width: 100%;
+        }
     }
 
     .information_title {
@@ -84,8 +101,8 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
-        text-transform: lowercase;
 
+        // text-transform: lowercase;
         @media(max-width: 600px) {
             font-size: 22px;
             line-height: 26px;
@@ -169,17 +186,27 @@
 
     .founder_info {
         flex: 1;
-        font-size: 22px;
+        font-size: 30px;
+
+        @media(max-width: 600px) {
+            margin-top: 40px;
+            display: flex;
+            justify-content: center;
+        }
     }
 
     .founder_info span {
         font-family: 'Covered By Your Grace-Regular ';
         font-weight: bold;
-        font-size: 22px;
+        font-size: 30px;
     }
 
     .founder_info p {
         width: 60%;
+
+        @media(max-width: 600px) {
+            width: 100%;
+        }
     }
 
     // ------------------------------------ 
@@ -272,10 +299,10 @@
     }
 
     .program_information p::before {
-        content: "\2665";
+        content: "\2022";
         margin-right: 10px;
         color: #af174e;
-        font-size: 20px;
+        font-size: 40px;
     }
 
     .program_img {
@@ -403,13 +430,14 @@
     }
 
     .location_title {
-        font-size: 20px;
+        font-size: 30px;
         font-weight: 600;
         margin-bottom: 20px;
     }
 
     .location_text {
-        font-size: 18px;
+        font-size: 26px;
+        font-weight: 600;
     }
 
     .location_map {
@@ -529,30 +557,46 @@
     }
 
     .ticket_prise {
-        color: #ffffff;
-        font-size: 24px;
+        color: #000;
+        font-size: 38px;
+
+        @media(max-width: 600px) {
+            font-size: 24px;
+        }
     }
 
     .pink {
-        background-color: #af174e;
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        border: 3px solid #af174e;
+        position: relative;
+    }
+
+    .till {
+        position: absolute;
+        bottom: 20px;
+        font-size: 18px;
+        color: #af174e;
     }
 
     .green {
-        background-color: #3c793c;
+        background-color: #fff;
+        border: 3px solid #3c793c;
     }
 
     // --------------------------
     .form {
-        margin: 100px 10px;
+        margin: 0px 10px;
     }
 
     form {
         width: 400px;
-        height: 400px;
+        height: 340px;
         background-color: #fff;
         margin: 0 auto;
         padding: 20px;
-        border: 1px solid #ccc;
+        // border: 1px solid #000;
         border-radius: 50%;
         display: flex;
         flex-direction: column;
@@ -569,6 +613,8 @@
     .form_title {
         position: absolute;
         top: 80px;
+        color: #af174e;
+        font-size: 20px;
     }
 
     .input_block {
@@ -581,7 +627,7 @@
     input[type="email"] {
         width: 100%;
         padding: 10px;
-        margin-bottom: 15px;
+        // margin-bottom: 15px;
         border: none;
         border-radius: 3px;
         font-family: 'Forum';
@@ -595,10 +641,10 @@
     }
 
     input::placeholder {
-        color: #999;
+        color: #000;
         font-family: 'Forum';
         font-weight: 600;
-        font-size: 50px;
+        font-size: 30px;
 
         @media(max-width: 600px) {
             font-size: 40px;
@@ -622,6 +668,7 @@
         position: absolute;
         bottom: 80px;
         background-color: #fff;
+        color: #3c793c;
         border: none;
         font-size: 20px;
         font-family: 'Forum';

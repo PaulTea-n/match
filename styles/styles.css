@@ -4,7 +4,7 @@
   src: url("../fonts/CoveredByYourGrace-Regular.ttf");
 }
 body {
-  background-color: #FEF1EC;
+  background-color: #FFFFFF;
   font-family: "Forum";
 }
 
@@ -43,6 +43,11 @@ section {
 
 .heading img {
   width: 100%;
+  margin-left: 4%;
+}
+
+.main_information {
+  position: relative;
 }
 
 .information_block {
@@ -51,6 +56,19 @@ section {
   font-family: "Forum";
   font-size: 30px;
   line-height: 44px;
+  position: relative;
+}
+
+.find_fon {
+  top: 12%;
+  position: absolute;
+  width: 108%;
+}
+@media (max-width: 600px) {
+  .find_fon {
+    top: 0%;
+    width: 100%;
+  }
 }
 
 .information_title {
@@ -81,7 +99,6 @@ strong {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  text-transform: lowercase;
 }
 @media (max-width: 600px) {
   .information_text {
@@ -128,17 +145,29 @@ strong {
 
 .founder_info {
   flex: 1;
-  font-size: 22px;
+  font-size: 30px;
+}
+@media (max-width: 600px) {
+  .founder_info {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .founder_info span {
   font-family: "Covered By Your Grace-Regular ";
   font-weight: bold;
-  font-size: 22px;
+  font-size: 30px;
 }
 
 .founder_info p {
   width: 60%;
+}
+@media (max-width: 600px) {
+  .founder_info p {
+    width: 100%;
+  }
 }
 
 .bloger_img {
@@ -223,10 +252,10 @@ strong {
 }
 
 .program_information p::before {
-  content: "♥";
+  content: "•";
   margin-right: 10px;
   color: #af174e;
-  font-size: 20px;
+  font-size: 40px;
 }
 
 .program_img {
@@ -359,13 +388,14 @@ strong {
 }
 
 .location_title {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 600;
   margin-bottom: 20px;
 }
 
 .location_text {
-  font-size: 18px;
+  font-size: 26px;
+  font-weight: 600;
 }
 
 .location_map {
@@ -418,29 +448,45 @@ strong {
 }
 
 .ticket_prise {
-  color: #ffffff;
-  font-size: 24px;
+  color: #000;
+  font-size: 38px;
+}
+@media (max-width: 600px) {
+  .ticket_prise {
+    font-size: 24px;
+  }
 }
 
 .pink {
-  background-color: #af174e;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border: 3px solid #af174e;
+  position: relative;
+}
+
+.till {
+  position: absolute;
+  bottom: 20px;
+  font-size: 18px;
+  color: #af174e;
 }
 
 .green {
-  background-color: #3c793c;
+  background-color: #fff;
+  border: 3px solid #3c793c;
 }
 
 .form {
-  margin: 100px 10px;
+  margin: 0px 10px;
 }
 
 form {
   width: 400px;
-  height: 400px;
+  height: 340px;
   background-color: #fff;
   margin: 0 auto;
   padding: 20px;
-  border: 1px solid #ccc;
   border-radius: 50%;
   display: flex;
   flex-direction: column;
@@ -458,6 +504,8 @@ form {
 .form_title {
   position: absolute;
   top: 80px;
+  color: #af174e;
+  font-size: 20px;
 }
 
 .input_block {
@@ -470,7 +518,6 @@ input[type=text],
 input[type=email] {
   width: 100%;
   padding: 10px;
-  margin-bottom: 15px;
   border: none;
   border-radius: 3px;
   font-family: "Forum";
@@ -486,17 +533,17 @@ input[type=email] {
 }
 
 input::-moz-placeholder {
-  color: #999;
+  color: #000;
   font-family: "Forum";
   font-weight: 600;
-  font-size: 50px;
+  font-size: 30px;
 }
 
 input::placeholder {
-  color: #999;
+  color: #000;
   font-family: "Forum";
   font-weight: 600;
-  font-size: 50px;
+  font-size: 30px;
 }
 @media (max-width: 600px) {
   input::-moz-placeholder {
@@ -521,6 +568,7 @@ input[type=email]:valid {
   position: absolute;
   bottom: 80px;
   background-color: #fff;
+  color: #3c793c;
   border: none;
   font-size: 20px;
   font-family: "Forum";
