@@ -391,11 +391,22 @@ strong {
   font-size: 30px;
   font-weight: 600;
   margin-bottom: 20px;
+  text-align: center;
+}
+@media (max-width: 600px) {
+  .location_title {
+    font-size: 24px;
+  }
 }
 
 .location_text {
   font-size: 26px;
   font-weight: 600;
+}
+@media (max-width: 600px) {
+  .location_text {
+    font-size: 24px;
+  }
 }
 
 .location_map {
@@ -470,6 +481,11 @@ strong {
   bottom: 20px;
   font-size: 18px;
   color: #af174e;
+}
+@media (max-width: 600px) {
+  .till {
+    font-size: 13px;
+  }
 }
 
 .green {
