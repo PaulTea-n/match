@@ -175,6 +175,10 @@ strong {
   }
 }
 
+.founder_info p em {
+  font-style: italic;
+}
+
 .bloger_img {
   border-radius: 50%;
 }
