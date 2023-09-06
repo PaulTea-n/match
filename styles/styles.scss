@@ -8,10 +8,6 @@
         font-family: 'Forum';
     }
 
-    // main {
-    //     background-color: #FEF1EC;
-    //     font-family: 'Forum';
-    // }
     section {
         padding: 100px 10px;
 
@@ -127,37 +123,6 @@
     }
 
     // -------------------------
-    // .program_block {
-    //     display: flex;
-    //     justify-content: space-between;
-    //     padding: 20px;
-    //     @media(max-width: 600px) {
-    //         flex-direction: column;
-    //         margin-bottom: 20px;
-    //     }
-    // }
-    // .program_card {
-    //     flex: 1;
-    //     margin: 0 10px;
-    //     text-align: center;
-    //     background-color: #af174e;
-    //     border-radius: 20px;
-    //     @media(max-width: 600px) {
-    //         margin-bottom: 20px;
-    //     }
-    // }
-    // .card_img {
-    //     margin: 10px auto;
-    // }
-    // .card_title {
-    //     font-family: 'Forum';
-    //     font-size: 26px;
-    //     margin-bottom: 30px;
-    // }
-    // .card_item {
-    //     margin-bottom: 20px;
-    // }
-    // -------------------------------
     .founders {
 
         // margin: 200px 20px;
@@ -471,74 +436,6 @@
         }
     }
 
-    // .location_card {
-    //     width: 500px;
-    //     height: 650px;
-    //     margin: 0 30px;
-    //     perspective: 1000px;
-    //     @media(max-width: 600px) {
-    //         width: 200px;
-    //         height: 300px;
-    //         margin: 0 10px;
-    //     }
-    // }
-    // .card_inner {
-    //     width: 100%;
-    //     height: 100%;
-    //     transform-style: preserve-3d;
-    //     transition: transform 0.5s ease;
-    //     background-color: #af174e;
-    //     cursor: pointer;
-    //     border-radius: 20px;
-    // }
-    // .location_card:hover .card_inner {
-    //     transform: rotateY(180deg);
-    // }
-    // .avers_card,
-    // .revers_card {
-    //     width: 100%;
-    //     height: 100%;
-    //     position: absolute;
-    //     backface-visibility: hidden;
-    // }
-    // .revers_card {
-    //     transform: rotateY(180deg);
-    // }
-    // .revers_card,
-    // .avers_card {
-    //     display: flex;
-    //     justify-content: center;
-    //     align-items: center;
-    // }
-    // .revers_card {
-    //     background-color: #3c793c;
-    //     border-radius: 20px;
-    // }
-    // .avers_text {
-    //     font-size: 30px;
-    //     color: #ffffff;
-    //     // background-color: #3c793c;
-    // }
-    // .revers_text {
-    //     font-size: 30px;
-    //     color: #ffffff;
-    //     margin: 0 auto;
-    // }
-    // .location-map {
-    //     width: 100%;
-    //     height: 100%;
-    //     position: relative;
-    //     overflow: hidden;
-    //     border-radius: 20px;
-    // }
-    // .location-map iframe {
-    //     position: absolute;
-    //     top: 0;
-    //     left: 0;
-    //     width: 100%;
-    //     height: 100%;
-    //     border: none;
-    // }
     // -------------------------------
     .tickets {
         text-align: center;
@@ -659,10 +556,9 @@
         font-size: 30px;
         text-align: center;
         border-radius: 10px;
-
-        @media(max-width: 600px) {
-            font-size: 20px;
-        }
+        // @media(max-width: 600px) {
+        //     font-size: 20px;
+        // }
     }
 
     input::placeholder {
@@ -670,10 +566,9 @@
         font-family: 'Forum';
         font-weight: 600;
         font-size: 30px;
-
-        @media(max-width: 600px) {
-            font-size: 40px;
-        }
+        // @media(max-width: 600px) {
+        //     font-size: 30px;
+        // }
     }
 
     input[type="text"]:focus,

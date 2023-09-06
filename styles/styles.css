@@ -553,12 +553,6 @@ input[type=email] {
   text-align: center;
   border-radius: 10px;
 }
-@media (max-width: 600px) {
-  input[type=text],
-  input[type=email] {
-    font-size: 20px;
-  }
-}
 
 input::-moz-placeholder {
   color: #000;
@@ -572,14 +566,6 @@ input::placeholder {
   font-family: "Forum";
   font-weight: 600;
   font-size: 30px;
-}
-@media (max-width: 600px) {
-  input::-moz-placeholder {
-    font-size: 40px;
-  }
-  input::placeholder {
-    font-size: 40px;
-  }
 }
 
 input[type=text]:focus,
