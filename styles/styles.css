@@ -142,6 +142,7 @@ strong {
 
 .founder_img img {
   width: 400px;
+  border-radius: 20px;
 }
 @media (max-width: 600px) {
   .founder_img img {
